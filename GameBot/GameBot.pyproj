@@ -28,20 +28,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GameBot.py" />
+    <Compile Include="Player.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="black_bishop.png" />
-    <Content Include="black_king.png" />
-    <Content Include="black_knight.png" />
-    <Content Include="black_pawn.png" />
-    <Content Include="black_queen.png" />
-    <Content Include="black_rook.png" />
-    <Content Include="white_bishop.png" />
-    <Content Include="white_king.png" />
-    <Content Include="white_knight.png" />
-    <Content Include="white_pawn.png" />
-    <Content Include="white_queen.png" />
-    <Content Include="white_rook.png" />
+    <Content Include="img\dot.png" />
+    <Content Include="img\black_bishop.png" />
+    <Content Include="img\black_king.png" />
+    <Content Include="img\black_knight.png" />
+    <Content Include="img\black_pawn.png" />
+    <Content Include="img\black_queen.png" />
+    <Content Include="img\black_rook.png" />
+    <Content Include="img\white_bishop.png" />
+    <Content Include="img\white_king.png" />
+    <Content Include="img\white_knight.png" />
+    <Content Include="img\white_pawn.png" />
+    <Content Include="img\white_queen.png" />
+    <Content Include="img\white_rook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

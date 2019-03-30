@@ -26,9 +26,10 @@ class ChessBoard(object):
     def print(self):
         for i in range(len(self.board)):
             for j in range(len(self.board[i])):
-                if self.board[i][j] != None:
-                    print("cell : " + chr(ord("a") + j) + str(i + 1) + " -> " + self.board[i][j].color + " " + self.board[i][j].name)
+                if self.board[i][j] is not None:
+                    print("cell : " + chr(ord("a") + j) + str(i + 1)
+                          + " -> " + self.board[i][j].color + " "
+                          + self.board[i][j].name)
                 else:
-                    print("cell : " + chr(ord("a") + j) + str(i + 1) + " -> None")
-
-
+                    print("cell : " + chr(ord("a") + j)
+                          + str(i + 1) + " -> None")
